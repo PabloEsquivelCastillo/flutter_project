@@ -23,7 +23,6 @@ class ReglaConsumo {
 
 
 
-
     static String? validarLitros(double? litros) {
       if(litros == null) return 'Escribe los litros';
       if(litros <= 0) return 'Los litros deben ser mayores que 0';
